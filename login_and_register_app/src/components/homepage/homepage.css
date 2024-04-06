@@ -1,0 +1,73 @@
+/* homepage.css
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    border-radius: 15px;
+    
+    transition: all 0.3s ease;
+    font-size: 16px;
+    
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button:active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+   */
+
+   /* homepage.css */
+
+
+  .homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url('https://cdn5.vectorstock.com/i/1000x1000/86/94/quiz-related-concept-vector-16148694.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+
+
+.button {
+  padding: 10px 20px;
+  background-color:deeppink;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}  
+
+
+

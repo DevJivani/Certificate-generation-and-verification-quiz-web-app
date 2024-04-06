@@ -1,0 +1,20 @@
+/* .App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+} */
+
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f0f2f5 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBJLkM3vXF88mx_PZ1SjSron6QxCa15vmgA&s') no-repeat center center; /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* This ensures the image covers the entire background */
+  font-family: Arial, sans-serif;
+}

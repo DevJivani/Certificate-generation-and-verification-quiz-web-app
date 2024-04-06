@@ -1,0 +1,125 @@
+
+.quiz {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #8b4d4d;
+    
+  }
+  
+  .score-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    font-size: 18px;
+  }
+  
+  .question-text {
+    font-size: 16px;
+  }
+  
+  .answer-section button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8b4d4d;
+    border-radius: 5px;
+    background-color: #2ab8bb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .answer-section button:hover {
+    background-color: #f0f0f0;
+  }
+  .cer {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+  }
+
+/* next skip button */
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  border-color: #8b4d4d;
+
+}
+
+.navigation-buttons button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.2s ease;
+  
+}
+
+.navigation-buttons button:hover {
+  background-color: #444;
+  
+}
+
+.navigation-buttons button:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+  
+}
+
+/* get certificate button */
+
+.score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  
+}
+
+.score-section p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  
+}
+
+.score-section button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.2s ease;
+  border: 1px solid #8b4d4d;
+}
+
+.score-section button:hover {
+  background-color: #444;
+}
+
+

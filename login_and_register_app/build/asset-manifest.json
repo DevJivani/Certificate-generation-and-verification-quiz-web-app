@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa479e18.css",
+    "main.js": "/static/js/main.73016be8.js",
+    "static/media/Certificate-template-illustration-on-transparent-background-PNG.png": "/static/media/Certificate-template-illustration-on-transparent-background-PNG.0b43015e6c5260ac78c9.png",
+    "index.html": "/index.html",
+    "main.aa479e18.css.map": "/static/css/main.aa479e18.css.map",
+    "main.73016be8.js.map": "/static/js/main.73016be8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa479e18.css",
+    "static/js/main.73016be8.js"
+  ]
+}
